@@ -1,6 +1,3 @@
-# movies-app-lalmazari
-movies-app-lalmazari created by GitHub Classroom
-
-### Movie Search Site
+# Movie Search Site
 **Only HTML CSS and JavaScript used (No Frameworks).**
-[Movie Search Site Link](https://moviesearchsiteapp.netlify.app/)
+[Movie Search Site Link](https://mmoviesearchapp.netlify.app/)
