@@ -1,0 +1,150 @@
+html { overflow-y: scroll; }
+
+body{
+    position: relative;
+    background-color:darkslateblue;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    box-sizing:border-box ;
+
+}
+
+/* Style Header and Search Bar */
+h1{
+    text-align: center;
+    color: ghostwhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+
+section{
+    margin: 50px 50px;
+}
+
+header{
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+}
+
+.search{
+    float: right;
+    margin-right: 100px;
+    border: 2px solid ghostwhite;
+    padding:0.5rem 1rem;
+    border-radius: 50px;
+}
+
+
+
+/* Main Movie Cards  */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    
+    width: 400px;
+    height: 650px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: ghostwhite;
+    
+}
+
+.card-image img{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.title{
+    float:left;
+    font-size: medium;
+}
+
+.point{
+    float:right;
+    padding: 0.25rem 0.5rem;
+    background-color:lavender;
+    border-radius: 3px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+.year > p{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.textArea{
+    margin: 0px 15px 0px 25px;
+    background-color: brown;
+}
+
+
+
+
+.card:hover{
+    transform: scale(1.03);
+} 
+
+/* Style Filter Tags */
+#tags{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100fr;
+    margin-left: 100fr;
+    margin-top: 50fr;
+}
+
+.tag{
+    color:white;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 50px;
+    margin:5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tag.highlight{
+    background-color: red;
+}
+
+/* Style Paging Buttons */
+.pagination{
+    display: flex;
+    margin:10px 30px;
+    align-items: center;
+    justify-content: center;
+    color:ghostwhite;
+}
+
+.page{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.page.disabled{
+    cursor: not-allowed;
+    color: gray;
+}
+
+.current{
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: 5px solid orange;
+    font-size: 20px;
+    font-weight: 600;
+}
